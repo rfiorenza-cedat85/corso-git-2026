@@ -1,0 +1,15 @@
+# Normalizza i fine riga a LF nel repository, lasciando al checkout
+# la conversione corretta per ciascuna piattaforma.
+* text=auto eol=lf
+
+# File binari noti: nessuna normalizzazione di line ending.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
