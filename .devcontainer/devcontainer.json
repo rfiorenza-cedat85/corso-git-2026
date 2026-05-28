@@ -1,0 +1,30 @@
+{
+	"name": "corso-git-2026",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"github.copilot",
+				"github.copilot-chat",
+				"eamodio.gitlens",
+				"davidanson.vscode-markdownlint",
+				"github.vscode-pull-request-github",
+				"mhutchie.git-graph"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"git.enableSmartCommit": true,
+				"git.confirmSync": false
+			}
+		}
+	},
+
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y git-flow && git --version && gh --version && git flow version",
+
+	"remoteUser": "vscode"
+}
