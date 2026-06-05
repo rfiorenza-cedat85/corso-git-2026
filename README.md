@@ -52,3 +52,4 @@ Si consiglia di farlo **prima della prima sessione** seguendo le istruzioni in [
 - [Pro Git (libro gratuito)](https://git-scm.com/book)
 - [Learn Git Branching (interattivo)](https://learngitbranching.js.org)
 - [Git-Flow: A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Oh Shit, Git!?!](https://ohshitgit.com)
