@@ -2,4 +2,10 @@
 
 Spazio dedicato ai materiali operativi delle singole sessioni del corso (esercizi, tracce, esempi guidati).
 
-La cartella è attualmente vuota: verrà **popolata gradualmente dal docente** mano a mano che il corso avanza, con una sottocartella per ogni sessione.
+Le sottocartelle vengono **pubblicate dal docente** mano a mano che il corso avanza, una per ogni sessione.
+
+## Sessioni pubblicate
+
+| Sessione   | Cartella                                       | Contenuto                |
+| ---------- | ---------------------------------------------- | ------------------------ |
+| sessione-1 | [01-introduction](01-introduction)             | Workshop ed esercizi     |

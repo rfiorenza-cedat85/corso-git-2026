@@ -20,14 +20,14 @@ Il repository raccoglie i materiali del corso destinati ai partecipanti: ambient
 
 ## Calendario del corso
 
-| Sessione    | Data       | Durata | Cartella di lavoro    |
-| ----------- | ---------- | ------ | --------------------- |
-| sessione-1  | 05/06/2026 | 1 ora  | `lessons/sessione-1/` |
-| sessione-2  | 12/06/2026 | 2 ore  | `lessons/sessione-2/` |
-| sessione-3  | 19/06/2026 | 2 ore  | `lessons/sessione-3/` |
-| sessione-4  | 26/06/2026 | 2 ore  | `lessons/sessione-4/` |
-| sessione-5  | 03/07/2026 | 2 ore  | `lessons/sessione-5/` |
-| sessione-6  | 10/07/2026 | 1 ora  | `lessons/sessione-6/` |
+| Sessione    | Data       | Durata | Cartella di lavoro          |
+| ----------- | ---------- | ------ | --------------------------- |
+| sessione-1  | 05/06/2026 | 1 ora  | `lessons/01-introduction/`  |
+| sessione-2  | 12/06/2026 | 2 ore  | `lessons/sessione-2/`       |
+| sessione-3  | 19/06/2026 | 2 ore  | `lessons/sessione-3/`       |
+| sessione-4  | 26/06/2026 | 2 ore  | `lessons/sessione-4/`       |
+| sessione-5  | 03/07/2026 | 2 ore  | `lessons/sessione-5/`       |
+| sessione-6  | 10/07/2026 | 1 ora  | `lessons/sessione-6/`       |
 
 ## Come usare questo repository
 
