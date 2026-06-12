@@ -47,6 +47,39 @@ La modalità attiva è **fortemente consigliata** perché permette di fissare re
 Per la modalità attiva è necessario aver preparato in anticipo il proprio ambiente di lavoro: bastano pochi minuti, ma è fondamentale per poter seguire efficacemente le sessioni pratiche.
 Si consiglia di farlo **prima della prima sessione** seguendo le istruzioni in [docs/setup/README.md](docs/setup/README.md), dove sono descritti tre profili di installazione (**A — Base**, **B — Intermedio**, **C — Completo**) tra cui scegliere in base alle proprie esigenze e preferenze. Il profilo **C** è quello usato dal docente e garantisce un ambiente isolato e identico a quello mostrato a lezione.
 
+## Utilizzo del dev container da terminale
+
+È possibile utilizzare il dev container anche senza VS Code, direttamente da terminale, tramite la Dev Containers CLI.
+
+Prerequisiti:
+
+- Docker
+- Node.js e npm
+
+Installa la Dev Containers CLI:
+
+```bash
+npm install -g @devcontainers/cli
+```
+
+Entra nella cartella del corso (contenente il file `.devcontainer/devcontainer.json`):
+
+```bash
+cd corso-git-2026
+```
+
+Avvia il dev container:
+
+```bash
+devcontainer up --workspace-folder .
+```
+
+Entra nella shell del dev container:
+
+```bash
+devcontainer exec --workspace-folder . bash
+```
+
 ## Risorse consigliate
 
 - [Pro Git (libro gratuito)](https://git-scm.com/book)
