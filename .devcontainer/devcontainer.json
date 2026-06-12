@@ -24,7 +24,7 @@
 		}
 	},
 
-	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y git-flow && git --version && gh --version && git flow version",
+	"postCreateCommand": "sudo chown vscode:vscode /workspaces && sudo apt-get update && sudo apt-get install -y git-flow && git --version && gh --version && git flow version",
 
 	"remoteUser": "vscode"
 }
